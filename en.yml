@@ -59,9 +59,9 @@ creative:
     create: "&aCreate a world"
     reset: "&cReset settings"
   setting:
-    world-size: "&eThe size of the world"
+    world-size: "&eSize of the world"
     seed: "&eWorld Generation Key"
-    generate-structures: "&eGeneration of structures"
+    generate-structures: "&eGenerating structures"
     name: "&eName of the world"
     gamemode: "&eStandard World Game Mode"
   access:
@@ -73,4 +73,12 @@ creative:
     flat: "&aFlat world"
     void: "&eEmpty world"
 scripting:
-  info: "&6Sunrise Scripting, modification of the world. \n &eUsage: /scripting <argument>"
+  add: 
+    error: "&cThere was an error adding the script."
+    success: "&aInstruction successfully added!"
+  addLine:
+    error: "&cAn error occurred while setting the event."
+    success: "&aEvent successfully set!"
+  setArg:
+    success: "&cAction argument successfully set"
+  info: "&6Sunrise Scripting, world modification. \n &eUsage: /scripting <argument>"
