@@ -67,10 +67,18 @@ creative:
   access:
     denied: "&cAccess denied"
   message:
-    teleport: "&aWe have successfully teleported you into the world!"
+    teleport: "&aSuccessfully teleported you into the world!"
   generators:
     survival: "&2World of Survival"
     flat: "&aFlat world"
     void: "&eEmpty world"
 scripting:
+  add: 
+    error: "&cThere was an error adding the script."
+    success: "&aInstruction successfully added!"
+  addLine:
+    error: "&cAn error occurred while setting the event."
+    success: "&aEvent successfully set!"
+  setArg:
+    success: "&cAction argument successfully set"
   info: "&6Sunrise Scripting, modification of the world. \n &eUsage: /scripting <argument>"
